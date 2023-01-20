@@ -1,0 +1,26 @@
+img {
+  width: 15em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.column {
+  flex-flow: row nowrap !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+}
